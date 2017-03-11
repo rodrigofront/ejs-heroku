@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 app.get('/', function(req, res) {
   res.render('index', {
     title: 'EJS Demo',
-    text: 'Um teste de EJS!!'
+    text: 'Um teste de EJS com Deploy Automatizado'
   });
 });
 
